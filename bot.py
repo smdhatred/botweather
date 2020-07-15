@@ -1,6 +1,6 @@
 import telebot;
 import requests;
-bot = telebot.TeleBot('984027833:AAGhtr3FzJoOpQiWqS3EtD0zBXvQPfZNdy4');
+bot = telebot.TeleBot('token');
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
